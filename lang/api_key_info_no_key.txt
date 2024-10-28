@@ -1,0 +1,7 @@
+Use the checkbox above to generate a new API key for this server.
+
+If you have previously created an API key for this server, it will be retrieved.
+
+Only after receiving a key will you be able to accept sold alert subscriptions.
+
+Your server will need to be publically reachable in order for the key generation to work.

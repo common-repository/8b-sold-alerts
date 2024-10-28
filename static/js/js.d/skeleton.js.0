@@ -1,0 +1,30 @@
+jQuery(function($)
+{
+	$.fn.extend(
+	{
+		skeleton : function( options )
+		{
+			var settings = $.extend( {}, $.fn.skeleton.defaults, options );
+
+			return this.each(function ()
+			{
+				var $$	= $(this),
+					o	= $.metadata ? $.extend({}, settings, $$.metadata()) : settings;
+
+				/** Start **/
+				document.title = 'skeleton';
+			});
+		}
+	});
+
+	/**
+	* Set your Plugin Defaults Here
+	*/
+	$.fn.skeleton.defaults =
+	{
+		//key:	value
+	};
+
+}(jQuery));
+
+$( 'div.skeleton' ).skeleton();

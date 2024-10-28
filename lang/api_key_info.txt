@@ -1,0 +1,5 @@
+<div class="sa-left">
+	You are using <strong>[subscriber_count]</strong> / [subscriber_max] available subscriptions.<br />
+	<a href="[renewal_link]" target="_blank">Increase Subscriptions</a> [refresh_button]
+</div>
+

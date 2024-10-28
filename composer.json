@@ -1,0 +1,32 @@
+{
+	"autoload":
+	{
+		"psr-4":
+		{
+			"eightb\\sold_alerts\\": "src/",
+			"eightb\\home_plugin_1\\client\\" : "vendor/eightb/home_plugin_1/client/",
+			"plainview\\sdk_eightb_sold_alerts\\": "src/sdk/"
+		}
+	},
+	"repositories":
+	[
+		{
+			"type" : "package",
+			"package" :
+			{
+				"name" : "eightb/home_plugin_1/client",
+				"version" : "dev-master",
+				"source":
+				{
+					"url" : "git@cheap:/wordpress/plugins/eightb/home_plugin_1/client.git",
+					"type" : "git",
+					"reference" :"master"
+				}
+			}
+		}
+	],
+	"require":
+	{
+		"eightb/home_plugin_1/client" : "dev-master"
+	}
+}

@@ -1,0 +1,7 @@
+Greetings [8b_sold_alerts_first_name]!
+
+Just wanted to pass along your monthly download of homes sold in your area. Please don't hesitate to reach out with any questions & enjoy!
+
+[8b_sold_alerts_sales]
+
+If you wish to unsubscribe, please <a href="[8b_sold_alerts_unsubscribe_url]">click this link</a>.

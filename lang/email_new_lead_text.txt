@@ -1,0 +1,1 @@
+[8b_sold_alerts_first_name] [8b_sold_alerts_last_name] just subscribed to sold home alerts with a property located at [8b_sold_alerts_searched_address]!

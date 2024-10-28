@@ -1,0 +1,32 @@
+/*Global*/
+.sold-alerts {display:block; margin:0 auto; border:0;text-align:center; max-width: 600px}
+.sold-alerts label {display:none;}
+
+/*Form*/
+.sold-alerts .ask_for_address {float:left; background:rgba(255,255,255,.8); border-radius: 2px;width: 100%; padding: 2% 3%;box-shadow: 0 0px 3px rgba(0,0,0,.2); margin: 35px 0}
+.sold-alerts .ask_for_address .message {background: #ddd; border:1px solid #ccc; font-weight: bold; color: #00a885; padding: 3px; font-size: 1.1em; border-radius: 2px;margin: 5px; clear:both;}
+.sold-alerts .address input[type=text],.sold-alerts input[type=email],.sold-alerts input[type=submit],.sold-alerts .ask_for_address .message {width: calc(100% - 10px);}
+.sold-alerts input {width: calc(50% - 10px);float: left;height: 45px; padding:0 10px; margin:5px; border:0;box-shadow: 0 0px 2px rgba(0,0,0,.3) inset; background:#f6f6f6}
+.sold-alerts input[type=submit] {display:block; height: 45px; border:0; padding:0; background:#00a885;box-shadow: 0 1px 3px rgba(0,0,0,.1); color:#fff; text-transform: uppercase;}
+.sold-alerts.busy input[type=submit] {background:#ddd url("../loader.gif") center no-repeat!important; color:rgba(255,255,255,.1); box-shadow: 0 0px 2px rgba(0,0,0,.2) inset}
+
+/*Notifications*/
+.sold-alerts .sa-thank-you {background: #00a885; color: #fff; padding: 3%; font-size: 1.2em; margin: 25px auto; display: block; border-radius: 2px;}
+.sold-alerts .sa-unsub {background: #C3272B; color: #fff; padding: 3%; font-size: 1.2em; margin: 25px auto; display:block; border-radius: 2px}
+
+@media (max-width: 767px) {
+	.sold-alerts {font-size: .9em;}
+}
+
+
+/*************************************
+Admin
+*************************************/
+/*Global*/
+input[type=checkbox] {float:left; margin: 3px 8px 0 0}
+
+/*Sold Alert Subscriptions*/
+.sa-left {padding: 15px 25px;background: #fff;border: 5px dashed #555;max-width: 500px;font-size: 1.2em;line-height: 1.5;text-align: center;}
+.sa-left strong {color: #ff0000;padding: 0 2px;}
+.wp-core-ui .sa-left .button-primary {display: block;margin: 10px auto; background: #efefef; color: #555; text-shadow: 0 0; border: 1px solid #ddd; box-shadow: 0 0; padding: 3px 10px; height: auto; width: auto; text-transform: uppercase; font-weight: 400;}
+.sa-left a {background: #eb5350;color: #fff;text-decoration: none;padding: 10px 20px 11px;border-radius: 2px;font-weight: bold;text-transform: uppercase;font-size: .9em;display: inline-block;margin: 10px 0 0;}
